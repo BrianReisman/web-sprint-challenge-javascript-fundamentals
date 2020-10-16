@@ -20,7 +20,14 @@ myFunction();
 /* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
 
 function summation(param){
-  for(let i = 0; i <param; i++){
-    return i++;
+  let counter = 0;
+
+  for(let i = 0; i <= param; i++){
+    counter = counter + i;  
   }
-// console.log(summation(4));
+  return counter;
+}
+// console.log(summation(4)) //pass
+
+//how do I break 2 down into 1 and 2 ? 2 = 2 so I can do something param# of times.
+//perhaps I start my count at 4 and --
