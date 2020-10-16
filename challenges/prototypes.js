@@ -40,8 +40,8 @@ CuboidMaker.prototype.surfaceArea = function(){
 
 const mine = new CuboidMaker(4,5,5);
 // console.log(mine);
-// console.log(mine.volume());
-// console.log(mine.surfaceArea());
+// console.log(mine.volume()); //pass
+// console.log(mine.surfaceArea()); //pass
 
 // Test your volume and surfaceArea methods by uncommenting the logs below:
 // console.log(cuboid.volume()); // 100
