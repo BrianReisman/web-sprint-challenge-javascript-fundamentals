@@ -29,11 +29,22 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 2. Explain the difference between a callback and a higher order function.
 
+A callback function is the function that is passed into a higher order function. A higher order function is the function the receives a callback function as an argument for one of its parameters.
+
 3. What is closure?
+
+Closure is when a function has or has access to everything it needs to execute its task.
 
 4. Describe the four rules of the 'this' keyword.
 
+global - this declared outside of a function with no context returns the window object, aka javascript
+implicit - in an object this is self referential, used in objects when calling properties of that same object.
+explicit - is when you spell out and identify specifically what this is refering to, it is the thing left of the . dot.
+new - new binding is when this is assigned to an iteration of an object made through a class or constructor function
+
 5. Why do we need super() in an extended class?
+
+Super sends the iterations arguments up to the parent class inorder to populate the properties it inherited.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
