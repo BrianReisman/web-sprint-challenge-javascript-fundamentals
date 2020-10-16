@@ -92,8 +92,7 @@ function greeting(firstName, lastName){
 // console.log(Consume("Mary", "Poppins", greeting));
 
 /*
-
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
-
 */
+//Did arrow functions from the start.
 
